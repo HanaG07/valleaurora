@@ -1,0 +1,6 @@
+@import "taildwindcss";
+
+@theme{
+    --color-brand-purple: #7C3AED;
+    --color-brand-dark: #4338CA;
+}
