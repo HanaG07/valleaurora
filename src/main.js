@@ -8,14 +8,18 @@ import InquilinosView from './views/InquilinosView.vue'
 import ServiciosView from './views/ServiciosView.vue'
 
 import './assets/main.css'
+import SucursalView from './views/SucursalView.vue'
+import NotFoundView from './views/NotFoundView.vue'
 
 const router = createRouter({
     history: createWebHistory(),
     routes:[
         {path: '/', component: HomeView},
-        {path: '/Usuarios', component: UsuarioView},
+        {path: '/Usuarios', component: UsuariosView},
         {path: '/Inquilinos', component: InquilinosView},
-        {path: '/Servicios', component: ServiciosView}
+        {path: '/Servicios', component: ServiciosView},
+        {path: '/Sucursal', component: SucursalView},
+        {path: '/NotFoundView', component: NotFoundView}
     ]
 })
 

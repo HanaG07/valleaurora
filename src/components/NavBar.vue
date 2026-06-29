@@ -38,6 +38,15 @@
         Mantenimiento
       </RouterLink>
 
+      <RouterLink 
+        to="/Sucursal" 
+        class="px-4 py-2 rounded-lg text-sm font-medium transition-all duration-200"
+        exact-active-class="bg-white text-indigo-700 shadow-sm font-semibold"
+        inactive-class="text-indigo-100 hover:bg-indigo-700/50 hover:text-white"
+      >
+        Sucursales
+      </RouterLink>
+
     </nav>
 
     <div class="relative w-full md:w-64">
